@@ -1,0 +1,40 @@
+
+h2{
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+.category-tile{
+   position: relative;
+   overflow: hidden;
+   margin: 0 auto 15px;
+}
+
+.category-tile span{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: #CDCFD8;
+   opacity: .8;
+}
+
+.category-tile:hover{
+   box-shadow: 0 2px 6px 2px #cccccc;
+}
+
+@media(max-width:768px){
+
+   body{
+      background-color: #CDCFD8 ;
+   }
+   .category-tile{
+      width: 70%;
+      height: 300px;
+      margin-bottom:50px;
+
+ }
+
+}
